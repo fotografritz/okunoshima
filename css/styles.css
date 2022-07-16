@@ -1,0 +1,46 @@
+
+@import url('https://themes.googleusercontent.com/fonts/css?kit=T1dqGUo99PvotdDeun4d1g');
+
+body {
+    background-color: #330000;
+    font-family: 'Assistant', sans-serif;
+}
+a {
+    color:#fff;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 75%;
+    max-width:960px;
+    color:#ffffff;
+    text-align: center;
+    font-family: 'Assistant', sans-serif;
+
+}
+
+
+.lang-select 
+{
+  display: flex;
+    flex-direction: row;
+    color:#ffffff;
+    width:370px;
+    margin-right:20px;
+}
+.lang-style
+{
+  cursor: pointer;
+  padding: 15px 5px;
+}
+.lang-style a
+{
+  
+  text-decoration: none;
+}
+.lang-style-active
+{
+  text-decoration: underline;
+  font-weight: bold;
+}
